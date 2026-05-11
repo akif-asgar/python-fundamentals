@@ -20,8 +20,6 @@
 fruits = ["apple", "banana", "cherry"]  # list
 cars = ("Ford", "BMW", "Volvo")  # tuple
 sports = {"soccer", "basketball", "tennis"}  # set
-person = {"name": "John", "age": 30, "city": "New York"}  # dictionary
-
 
 # ===================== LIST OPERATIONS =====================
 
@@ -124,45 +122,3 @@ print(len(sports))          # Number of elements
 
 
 
-# ===================== DICTIONARY OPERATIONS =====================
-
-# Access
-print(person["name"])       # Gets value by key
-print(person.get("age"))    # Gets value safely (no error if missing)
-
-# Add / Update
-person["age"] = 31          # Updates value
-person["country"] = "USA"   # Adds new key-value
-
-# Remove
-person.pop("city")          # Removes key
-person.popitem()            # Removes last inserted item
-# del person["name"]        # Deletes key
-# person.clear()            # Removes all items
-
-# Loop
-for key in person:
-    print(key)              # Iterates keys
-
-for value in person.values():
-    print(value)            # Iterates values
-
-for key, value in person.items():
-    print(key, value)       # Iterates key-value pairs
-
-# Length
-print(len(person))          # Number of key-value pairs
-
-# Check
-print("age" in person)      # Checks if key exists
-
-# Copy
-new_dict = person.copy()    # Creates a copy
-
-# Keys / Values / Items
-print(person.keys())        # Returns all keys
-print(person.values())      # Returns all values
-print(person.items())       # Returns key-value pairs
-
-# Update
-person.update({"job": "Engineer"})  # Adds or updates multiple values

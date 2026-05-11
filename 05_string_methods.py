@@ -49,6 +49,10 @@ result = "My name is {} and I am {} years old.".format(name, age) # OUTPUT: 'My 
 number_string = '12345'
 result = number_string.isdigit() # OUTPUT: True (because all characters are digits)
 
+# 15. capitalize()- Capitalizes the first character of the string
+result = text.capitalize() # OUTPUT: 'I am learning python string methods.' (only the
+
+
 
 
         
