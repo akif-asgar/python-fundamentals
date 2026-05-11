@@ -9,6 +9,10 @@ This repository contains my structured journey of learning Python fundamentals.
 - Arithmetic & Math
 - If Statements
 - Logical Operators
+- Strings
+- Loops
+- Collections
+- Dictionary
 
 More topics will be added as I progress.
 
